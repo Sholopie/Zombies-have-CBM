@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mon_zombie_kevlar_0",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_kevlar_0",
+    "dissect": "dissect_zombie_kevlar"
+  },
+  {
+    "id": "mon_zombie_kevlar_1",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_kevlar_1",
+    "dissect": "dissect_zombie_kevlar"
+  },
+  {
+    "id": "mon_zombie_kevlar_2",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_kevlar_2",
+    "dissect": "dissect_zombie_kevlar_heavy"
+  },
+  {
+    "id": "mon_zombie_bio_op",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_bio_op",
+    "dissect": "dissect_zombie_bio_op"
+  },
+  {
+    "id": "mon_zombie_bio_op2",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_bio_op2",
+    "dissect": "dissect_zombie_bio_op2"
+  },
+  {
+    "id": "mon_zombie_electric",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_electric",
+    "dissect": "dissect_zombie_humanoid_electric"
+  },
+  {
+    "id": "mon_zombie_brute_shocker",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_brute_shocker",
+    "dissect": "dissect_zombie_humanoid_electric"
+  },
+  {
+    "id": "mon_zombie_static",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_static",
+    "dissect": "dissect_zombie_humanoid_electric"
+  },
+  {
+    "id": "mon_zombie_nullfield",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_nullfield",
+    "dissect": "dissect_zombie_humanoid_electric"
+  }
+]

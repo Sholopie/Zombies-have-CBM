@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "I_Zombies have CBM",
+    "name": "Zombies have CBM",
+    "authors": [ "Sholopie" ],
+    "description": "Did you play Cataclysm BN And when you tried CDDA you were disappointed that zombies don't have CBM When dissection? This mod is for you",
+    "category": "rebalance",
+    "version": "0.0.1",
+    "dependencies": [ "dda" ]
+  }
+]
