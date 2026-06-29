@@ -11,5 +11,5 @@ I made this mod to add at least a drop of Cataclysm BN To Cataclysm DDA
 - lab security, 
 - cop, 
 - survivor and Elite survivor.
-I may update it
-UPD 20.05.26:Added zombies: scientist, swat, medical (and subspecies), lab security, cop, survivor.
+- I may update it
+- UPD 20.05.26:Added zombies: scientist, swat, medical (and subspecies), lab security, cop, survivor.
