@@ -92,8 +92,6 @@
       [ "bio_heatsink", 10 ],
       [ "bio_hydraulics", 10 ],
       [ "bio_jointservo", 10 ],
-      [ "bio_power_armor_interface", 15 ],
-      [ "bio_power_armor_interface_mkII", 15 ],
       [ "bio_targeting", 10 ],
       [ "bio_ups", 15 ],
       [ "bio_weight", 15 ]
