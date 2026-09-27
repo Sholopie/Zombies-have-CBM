@@ -32,10 +32,10 @@
         "max": 3
       }
     ]
-      },
+  },
   {
     
-    "id": "dissect_zombie_bio_op",
+    "id": "dissect_mon_zombie_survivor_elite",
     "type": "harvest",
     "message": "<zombie_kevlar_hulk_harvest>",
     "entries": [
@@ -74,59 +74,6 @@
         "base_num": [ 0, 3 ],
         "scale_num": [ 0.1, 0.6 ],
         "max": 3
-      }
-    ]
-  },
-  {
-
-    "id": "dissect_zombie_bio_op2",
-    "type": "harvest",
-    "message": "<zombie_kevlar_hulk_harvest>",
-    "entries": [
-      {
-        "drop": "bio_power_storage",
-        "type": "bionic",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 6 ],
-        "scale_num": [ 0.1, 0.8 ],
-        "max": 6
-      },
-      {
-        "drop": "bionics_common",
-        "type": "bionic_group",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 3 ],
-        "scale_num": [ 0.1, 0.6 ],
-        "max": 3
-      },
-      {
-        "drop": "bio_power_storage_mkII",
-        "type": "bionic",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 3 ],
-        "scale_num": [ 0.1, 0.6 ],
-        "max": 3
-      },
-      {
-        "drop": "bionics_heavy_mil",
-        "type": "bionic_group",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 2 ],
-        "scale_num": [ 0.1, 0.2 ],
-        "max": 2
-      },
-      {
-        "drop": "bionics_mil",
-        "type": "bionic_group",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 4 ],
-        "scale_num": [ 0.1, 0.6 ],
-        "max": 4
       }
     ]
   },
@@ -200,6 +147,40 @@
   },
   {
     
+    "id": "dissect_mon_zombie_technician",
+    "type": "harvest",
+    "entries": [
+      {
+        "drop": "bio_power_storage",
+        "type": "bionic",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 1 ],
+        "scale_num": [ 0.1, 0.2 ],
+        "max": 2
+      },
+      {
+        "drop": "bionics_common",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 1 ],
+        "scale_num": [ 0.1, 0.6 ],
+        "max": 1
+      },
+      {
+        "drop": "bionics_tech",
+        "type": "bionic_group",
+        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
+        "faults": [ "fault_bionic_salvaged" ],
+        "base_num": [ 0, 2 ],
+        "scale_num": [ 0.1, 0.2 ],
+        "max": 3
+      }
+    ]
+  },
+  {
+    
     "id": "dissect_mon_zombie_survivor",
     "type": "harvest",
     "entries": [
@@ -229,49 +210,6 @@
         "base_num": [ 0, 1 ],
         "scale_num": [ 0.1, 0.2 ],
         "max": 1
-      }
-    ]
-  },
-  {
-    
-    "id": "dissect_mon_zombie_survivor_elite",
-    "type": "harvest",
-    "entries": [
-      {
-        "drop": "bio_power_storage",
-        "type": "bionic",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 1 ],
-        "scale_num": [ 0.1, 0.2 ],
-        "max": 2
-      },
-      {
-        "drop": "bionics_common",
-        "type": "bionic_group",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 1 ],
-        "scale_num": [ 0.1, 0.6 ],
-        "max": 2
-      },
-      {
-        "drop": "bio_power_storage_mkII",
-        "type": "bionic",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 2 ],
-        "scale_num": [ 0.1, 0.6 ],
-        "max": 2
-      },
-      {
-        "drop": "bionics_mil",
-        "type": "bionic_group",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 3 ],
-        "scale_num": [ 0.1, 0.6 ],
-        "max": 3
       }
     ]
   },
@@ -409,42 +347,6 @@
         "base_num": [ 0, 1 ],
         "scale_num": [ 0.1, 0.6 ],
         "max": 2
-      }
-    ]
-    
-  },
-  {
-    
-    "id": "dissect_mon_zombie_technician",
-    "type": "harvest",
-    "message": "<zombie_humanoid_electric_harvest>",
-    "entries": [
-      {
-        "drop": "bio_power_storage",
-        "type": "bionic",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 2 ],
-        "scale_num": [ 0.1, 0.8 ],
-        "max": 2
-      },
-      {
-        "drop": "bionics_common",
-        "type": "bionic_group",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 1 ],
-        "scale_num": [ 0.1, 0.6 ],
-        "max": 1
-      },
-      {
-        "drop": "bionics_tech",
-        "type": "bionic_group",
-        "flags": [ "FILTHY", "NO_STERILE", "NO_PACKED" ],
-        "faults": [ "fault_bionic_salvaged" ],
-        "base_num": [ 0, 2 ],
-        "scale_num": [ 0.1, 0.6 ],
-        "max": 3
       }
     ]
     
