@@ -1,12 +1,12 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "Zombies_have_CBM",
-    "name": "Zombies have CBM",
+    "id": "Zombies_have_CBM_Ito",
+    "name": "Zombies have CBM Ito",
     "authors": [ "Sholopie" ],
-    "description": "Did you play Cataclysm BN And when you tried CDDA you were disappointed that zombies don't have CBM When dissection? This mod is for you",
+    "description": "Did you play Cataclysm BN And when you tried CDDA you were disappointed that zombies don't have CBM When dissection? This mod is for you (it's version for Ito)",
     "category": "rebalance",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "dependencies": [ "dda" ]
   }
 ]
